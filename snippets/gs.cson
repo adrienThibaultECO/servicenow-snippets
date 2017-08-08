@@ -1,0 +1,24 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "gs info":
+    "prefix": "gsi"
+    "body": "gs.info('${1:message}');$2"
+
+  "gs warn":
+    "prefix": "gsw"
+    "body": "gs.warn('${1:message}');$2"
+
+  "gs error":
+    "prefix": "gse"
+    "body": "gs.error('${1:message}');$2"
+
+  "gs getUser":
+    "prefix": "gsgu"
+    "body": "var ${1:user} = gs.getUser();$2"
+
+  "gs hasRole":
+    "prefix": "gshr"
+    "body": "gs.hasRole('${1:role}');$2"
+
+  "gs nil":
+    "prefix": "gsn"
+    "body": "gs.nil(${1:object });$2"

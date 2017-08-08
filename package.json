@@ -1,0 +1,14 @@
+{
+  "name": "servicenow-snippets",
+  "version": "0.0.0",
+  "description": "ServiceNow snippets for Atom.",
+  "keywords": [
+    "servicenow",
+    "snippet"
+  ],
+  "repository": "https://github.com/kaitoy/servicenow-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

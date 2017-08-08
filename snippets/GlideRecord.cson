@@ -1,0 +1,71 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "GlideRecord new":
+    "prefix": "grn"
+    "body": "var ${1:gr} = new GlideRecord('${2:table}');$3"
+
+  "GlideRecord addActiveQuery":
+    "prefix": "graaq"
+    "body": "${1:gr}.addActiveQuery();$2"
+
+  "GlideRecord addQuery":
+    "prefix": "graq"
+    "body": "${1:gr}.addQuery('${2:name}', ${3:value});$4"
+
+  "GlideRecord query":
+    "prefix": "grq"
+    "body": "${1:gr}.query();$2"
+
+  "GlideRecord get":
+    "prefix": "grg"
+    "body": "${1:gr}.get('${2:sysId}');$3"
+
+  "GlideRecord getRowCount":
+    "prefix": "grgrc"
+    "body": "${1:gr}.getRowCount();$2"
+
+  "GlideRecord getValue":
+    "prefix": "grgv"
+    "body": "${1:gr}.getValue('${2:name}');$3"
+
+  "GlideRecord setValue":
+    "prefix": "grsv"
+    "body": "${1:gr}.setValue('${2:name}', ${3:value});$4"
+
+  "GlideRecord next":
+    "prefix": "grn"
+    "body": "${1:gr}.next();$2"
+
+  "GlideRecord hasNext":
+    "prefix": "grhn"
+    "body": "${1:gr}.hasNext();$2"
+
+  "GlideRecord update":
+    "prefix": "gru"
+    "body": "${1:gr}.update();$2"
+
+  "GlideRecord new initialize insert":
+    "prefix": "grnii"
+    "body": """
+    var ${1:gr} = new GlideRecord('${2:table}');
+    ${1:gr}.initialize();
+    ${1:gr}.insert();$3
+    """
+
+  "GlideRecord new newRecord insert":
+    "prefix": "grnni"
+    "body": """
+    var ${1:gr} = new GlideRecord('${2:table}');
+    ${1:gr}.newRecord();
+    ${1:gr}.insert();$3
+    """
+
+  "GlideRecord query loop":
+    "prefix": "grql"
+    "body": """
+    var ${1:gr} = new GlideRecord('${2:table}');
+    ${1:gr}.addQuery('${3:name}', ${4:value});
+    ${1:gr}.query();
+    while (${1:gr}.next()) {
+      $5
+    }
+    """
