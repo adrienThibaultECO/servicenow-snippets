@@ -21,4 +21,4 @@
 
   "gs nil":
     "prefix": "gsn"
-    "body": "gs.nil(${1:object });$2"
+    "body": "gs.nil(${1:object});$2"
