@@ -1,6 +1,6 @@
 {
   "name": "servicenow-snippets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ServiceNow snippets for Atom.",
   "keywords": [
     "servicenow",
