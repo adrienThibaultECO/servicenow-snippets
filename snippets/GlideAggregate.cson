@@ -1,0 +1,80 @@
+'.source.js, .source.jsx, .source.ts, .source.js-semantic':
+  'GlideAggregate':
+    'prefix': 'GlideAggregate'
+    'body': 'GlideAggregate(${0:String tableName});'
+
+  'GlideAggregate (agg, name)':
+    'prefix': 'addAggregate'
+    'body': 'addAggregate(${1:String agg}, ${0:String name});'
+
+  'GlideAggregate (query)':
+    'prefix': 'addEncodedQuery'
+    'body': 'addEncodedQuery(${1:String query});'
+
+  'GlideAggregate (fieldName)':
+    'prefix': 'addNotNullQuery'
+    'body': 'addNotNullQuery(${1:String fieldName});'
+
+  'GlideAggregate (fieldName)':
+    'prefix': 'addNullQuery'
+    'body': 'addNullQuery(${1:String fieldName});'
+
+  'GlideAggregate (nameoperatorvalue)':
+    'prefix': 'addQuery'
+    'body': 'addQuery(${1:String name}, ${2:String operator}, ${3:String value});'
+
+  'GlideAggregate (aggname)':
+    'prefix': 'getAggregate'
+    'body': 'getAggregate(${1:String agg}, ${2:String name});'
+
+  'GlideAggregate':
+    'prefix': 'getAggregateEncodedQuery'
+    'body': 'getAggregateEncodedQuery();'
+
+  'GlideAggregate':
+    'prefix': 'getEncodedQuery'
+    'body': 'getEncodedQuery();'
+
+  'GlideAggregate':
+    'prefix': 'getRowCount'
+    'body': 'getRowCount();'
+
+  'GlideAggregate':
+    'prefix': 'getTableName'
+    'body': 'getTableName();'
+
+  'GlideAggregate (name)':
+    'prefix': 'getValue'
+    'body': 'getValue(${1:String name});'
+
+  'GlideAggregate (name)':
+    'prefix': 'groupBy'
+    'body': 'groupBy(${1:String name});'
+
+  'GlideAggregate':
+    'prefix': 'hasNext'
+    'body': 'hasNext();'
+
+  'GlideAggregate':
+    'prefix': 'next'
+    'body': 'next();'
+
+  'GlideAggregate':
+    'prefix': 'orderBy'
+    'body': 'orderBy();'
+
+  'GlideAggregate (aggfieldName)':
+    'prefix': 'orderByAggregate'
+    'body': 'orderByAggregate(${1:String agg}, ${2:String fieldName});'
+
+  'GlideAggregate (name)':
+    'prefix': 'orderByDesc'
+    'body': 'orderByDesc(${1:String name});'
+
+  'GlideAggregate':
+    'prefix': 'query'
+    'body': 'query();'
+
+  'GlideAggregate (b)':
+    'prefix': 'setGroup'
+    'body': 'setGroup(${1:Boolean b});'
